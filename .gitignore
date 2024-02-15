@@ -4,3 +4,4 @@ __pycache__/connect.cpython-311.pyc
 app/__pycache__/__init__.cpython-311.pyc
 app/__pycache__/sql.cpython-311.pyc
 connect.py
+connect.py
