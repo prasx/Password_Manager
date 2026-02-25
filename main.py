@@ -17,7 +17,7 @@ dp = Dispatcher(bot)
 dp.middleware.setup(LoggingMiddleware())
 
 
-password = b'Password'                              # Пароль для шифрования
+password = b'Password777Qaz'                              # Пароль для шифрования
 hashed_password = hashlib.sha256(password).digest() # Создаем хеш от пароля
 key = base64.urlsafe_b64encode(hashed_password)     # Приводим хеш к нужному формату
 cipher_suite = Fernet(key)                          # Создаем шифр с использованием ключа
